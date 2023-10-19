@@ -1,9 +1,6 @@
-from dotenv import load_dotenv
 import openai
-import os
 
 
-my_secret_key = os.getenv('MY_SECRET_KEY')
 conversation = [
     {"role": "system", "content": "You are a curious football fan."},
     {"role": "user", "content": "What football team has the most wins in the Champions League?"}
